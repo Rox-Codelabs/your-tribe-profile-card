@@ -78,6 +78,10 @@ button.profile-card-example-button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
+button.profile-card-example-button:hover{
+  background-color: green;
+}
+
 .profile-card-example-img {
   position: relative;
   top: 2rem;
