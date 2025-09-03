@@ -1,9 +1,11 @@
 body{
     display: grid;
-    grid-template-columns: repeat (12, 1fr) ;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
 }
 
-header{
+.card{
     background-color: black;
     grid-column-start: 4;
     grid-column-end: 10;
